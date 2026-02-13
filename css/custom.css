@@ -1156,7 +1156,7 @@ header .sm_btn_holder .sm_extended_groups a
     font-size: 14px;
 }
 .digital-services .service-section { 
-  /* min-height: 60vh; */
+  min-height: 60vh;
 }
 
   /* =================================ZONG MALL=============================== */
