@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Lenis</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --lenis-primary: #ce476f;
+        --text-muted: #cccccc;
+        --bg-overlay: rgba(0, 0, 0, 0.4);
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        background-color: #0a0a0a;
+        color: #ffffff;
+        font-family: "Open Sans";
+      }
+
+      /* Background Image Handling */
+      .hero-section {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding-top: 80px;
+      }
+
+      /* Typography & Logo */
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 200px;
+      }
+
+      .logo img {
+        width: 100%;
+      }
+
+      .lens-text {
+        color: var(--lenis-primary);
+      }
+
+      h1 {
+        color: var(--lenis-primary);
+        line-height: 1.1;
+      }
+
+      p.lead {
+        font-size: 1.1rem;
+        color: var(--text-muted);
+        /* max-width: 500px; */
+      }
+
+      /* Hamburger Menu */
+      .hamburger-icon {
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+      }
+
+      /* Button Styling */
+      .btn-survey {
+        background-color: var(--lenis-primary);
+        color: white;
+        border-radius: 50px;
+        padding: 10px 12px 10px 25px;
+        font-weight: 500;
+        transition: transform 0.2s ease;
+        border: none;
+        text-decoration: none;
+      }
+
+      .btn-survey:hover {
+        background-color: #b02a6b;
+        color: white;
+        transform: translateY(-2px);
+      }
+
+      .icon-circle {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Responsiveness adjustments */
+      @media (max-width: 991px) {
+        .hero-section {
+          background-position: 20% center; /* Keep face visible on mobile */
+          text-align: left;
+        }
+        .content-box {
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), transparent);
+          padding: 30px;
+          border-radius: 15px;
+          margin-top: 50px;
+          text-align: center;
+          position: absolute;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="fixed-top px-4 py-3">
+      <nav class="d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <img src="images/logo-lenis.svg" alt="Logo" />
+        </div>
+        <button class="navbar-toggler border-0 shadow-none" type="button">
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+        </button>
+      </nav>
+    </header>
+
+    <main
+      class="hero-section d-flex align-items-center"
+      style="background-image: url(images/page_bg.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5"></div>
+
+          <div class="col-lg-7 col-md-12 content-box">
+            <h1 class="display-4 fw-normal mb-4">
+              Correcting the Global
+              <span class="highlight">Data Gap in Women’s Health.</span>
+            </h1>
+            <p class="lead mb-5">
+              We capture the lived health experiences of women where traditional
+              data collection falls short. Starting in Pakistan, we are building
+              the authoritative reference for women’s health in contexts
+              invisible to current global systems.
+            </p>
+
+            <p class="text-lg-end">
+              <a
+                href="#"
+                class="btn btn-survey d-inline-flex align-items-center"
+              >
+                Take the Survey
+                <span class="icon-circle ms-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 32 32"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M16,13.415h6.461V10.83H16V13.415z M16,21.168h6.461v-2.585H16V21.168z M12.123,14.707
+	c0.711,0,1.319-0.253,1.825-0.759c0.506-0.506,0.759-1.115,0.759-1.825c0-0.711-0.253-1.319-0.759-1.825
+	c-0.506-0.506-1.115-0.759-1.825-0.759s-1.319,0.253-1.825,0.759c-0.506,0.506-0.759,1.115-0.759,1.825
+	c0,0.711,0.253,1.319,0.759,1.825C10.804,14.454,11.413,14.707,12.123,14.707z M12.123,22.461c0.711,0,1.319-0.253,1.825-0.759
+	c0.506-0.506,0.759-1.115,0.759-1.825c0-0.711-0.253-1.319-0.759-1.825c-0.506-0.506-1.115-0.759-1.825-0.759
+	s-1.319,0.253-1.825,0.759c-0.506,0.506-0.759,1.115-0.759,1.825c0,0.711,0.253,1.319,0.759,1.825
+	C10.804,22.208,11.413,22.461,12.123,22.461z"
+                    />
+                    <path
+                      d="M16.001,31.244c-8.406,0-15.245-6.839-15.245-15.245c0-8.405,6.839-15.243,15.245-15.243
+	c8.405,0,15.243,6.839,15.243,15.243C31.244,24.405,24.405,31.244,16.001,31.244z M16.001,3.341c-6.981,0-12.66,5.679-12.66,12.659
+	c0,6.981,5.679,12.66,12.66,12.66c6.98,0,12.659-5.679,12.659-12.66C28.659,9.019,22.981,3.341,16.001,3.341z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
