@@ -9,6 +9,19 @@
         border-radius: 8px;
     }
 
+   .fvg_btn.active {
+    background-color: rgb(216.6, 0, 112.1);
+    border: 1px solid var(--primary_color);
+    color: #fff;
+}
+.btn_fill {
+  padding: 0.8rem 2.5rem;
+}
+.btn_fill:focus, .btn_fill:hover {
+    background-color: #fff;
+    border-color: var(--primary_color);
+    color: var(--primary_color);
+}
 
 
 
