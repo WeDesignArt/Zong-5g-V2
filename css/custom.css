@@ -1052,6 +1052,11 @@ footer h5 {
 
 @media (max-width: 768px) {
 
+  .custom-pagination {
+    display: none;
+  }
+
+
 /* ========================ICON=========================== */
 header .sm_btn_holder .sm_extended_groups a
  {
@@ -1151,7 +1156,11 @@ header .sm_btn_holder .sm_extended_groups a
   }
 /* =====================OUR DIGITAL SERVICE========================== */
 
-
+.digital-services .header-col {
+    border: 1px solid #767676;    
+    padding: 2rem;
+    height: 100%;
+}
 .digital-services .content-col p {
     font-size: 14px;
 }
@@ -1160,7 +1169,10 @@ header .sm_btn_holder .sm_extended_groups a
 }
 
   /* =================================ZONG MALL=============================== */
-.zong-mall .mall-text-area-heading {
+.zong-mall{
+  display: none;
+}
+  .zong-mall .mall-text-area-heading {
     color: #000;
     /* font-size: 5vw; */
     font-weight: 700;
@@ -1348,6 +1360,19 @@ header .sm_btn_holder .sm_extended_groups a
 }
 
 
+/* =============== footer======================================== */
+
+    .custom_align {
+      border-bottom: none;
+    }
+/* ==========================================OVerwrite CSS=== */
+
+.scroll-hero .content-pane .btn-lime {
+    padding: 12px 20px 12px 25px;
+}
+.faq_question span {
+      padding: 0px 15px 0px 0px;
+}
 }
 
 
