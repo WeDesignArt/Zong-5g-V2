@@ -1052,7 +1052,7 @@ footer h5 {
   .faq_section {
     /* padding: 50px 0; */
     /* padding: 10% 8% 10% 10%; */
-    padding: 10% 2% 10% 6%;
+    padding: 10% 3% 10% 4%;
 
   }
 
@@ -1405,6 +1405,27 @@ header .sm_btn_holder .sm_extended_groups a
 .faq_question span {
       padding: 0px 15px 0px 0px;
 }
+
+
+
+
+/* =================BUTTON SETTINGS====== */
+
+
+  .footer_single_last {
+    text-align: center;
+  }
+
+  .footer_single_last h6 {
+    text-align: start !important;
+  }
+
+  .footer_single_last ul {
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+  }
+
 }
 
 
