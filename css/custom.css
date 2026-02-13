@@ -691,6 +691,12 @@ footer h5 {
     display: none;
     padding-top: 10px;
   }
+  .grid_custom_sm {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;  /* 2 equal columns */
+    gap: 10px 20px;                  /* row gap / column gap */
+    padding: 0;
+  }
 
   .footer_single h5 {
     position: relative;
@@ -1044,7 +1050,10 @@ footer h5 {
 
 @media (max-width: 575px) {
   .faq_section {
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    /* padding: 10% 8% 10% 10%; */
+    padding: 10% 2% 10% 6%;
+
   }
 
   .faq_left h2 {
@@ -1069,6 +1078,8 @@ footer h5 {
     display: none;
   }
 
+  
+
 
 /* ========================ICON=========================== */
 header .sm_btn_holder .sm_extended_groups a
@@ -1087,12 +1098,19 @@ header .sm_btn_holder .sm_extended_groups a
   }
 
 /* ========================HEADER=========================== */
+
+      .hero-image-col {
+        height: 300px;
+    }
     header .header_wrapper {
         padding: 12px 0px;
     }
     header .header_wrapper {
     justify-content: space-between;
 }
+.hero-text-col .content-wrapper {
+        max-width: 91%;
+    }
 /* ========================HERO=========================== */
   .hero-text-col .hero-title {
     font-size: 35px;
@@ -1231,7 +1249,8 @@ header .sm_btn_holder .sm_extended_groups a
 /* ================================ */
   .press-section_sm {
     display: block;
-    padding: 30px 0px;
+    /* padding: 30px 18px; */
+    padding: 10% 8% 10% 10%;
   }
 
   .press-title_sm {
