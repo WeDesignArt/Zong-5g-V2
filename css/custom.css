@@ -5,6 +5,10 @@
 }
 
 
+    .hero-text-col .fvg_btn {
+        border-radius: 8px;
+    }
+
 
 
 
@@ -956,6 +960,9 @@ footer h5 {
   .footer-top-single h3{  
     font-size: 40px;
 }
+.footer-top-input {
+  display: flex;
+}
 
 .footer-top-input button {
     padding: 10px 20px 10px 20px;
@@ -980,7 +987,7 @@ footer h5 {
 }
 
 .footer-top-input input {
-    font-size: 12px;
+    font-size: 14px;
 }
 .arrow_tilt_footer {
  
@@ -1149,7 +1156,7 @@ header .sm_btn_holder .sm_extended_groups a
     font-size: 14px;
 }
 .digital-services .service-section { 
-  min-height: 60vh;
+  /* min-height: 60vh; */
 }
 
   /* =================================ZONG MALL=============================== */
@@ -1298,6 +1305,49 @@ header .sm_btn_holder .sm_extended_groups a
         top: 15px;
     }
 
+
+    /* ===================MENU_SETTINGS========= */
+
+        header .header_wrapper {
+    padding: 12px 0px;
+
+}
+.sm_offcanvas_wrapper .logo {
+    text-align: center;
+    margin-top: 12px;
+}
+.sm_offcanvas_wrapper .logo::after {
+    background-color: transparent;}
+
+.sm_offcanvas_wrapper nav .nav-toggle {
+    top: 80px;
+  }
+
+    .sm_offcanvas_wrapper nav ul {
+      padding-top: 124px;
+    left: 0;
+    top: 0px;
+  }
+
+
+
+
+  .zong_mall_sm .mall-text-area-text_sm a {
+    color: var(--secondary_color);
+    display: inline-flex;
+    font-size: 34px;
+    font-size: 25px;
+    transition: opacity .2s;
+    text-decoration: none;
+    width: 33px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    position: absolute;
+}
+
+
 }
 
 
@@ -1333,9 +1383,27 @@ header .sm_btn_holder .sm_extended_groups a
 
 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
 
     .footer-top-input input {
         font-size: 11px;
     }
+} */
+@media (max-width: 768px) {
+
+  .footer-top-input {
+    /* flex-direction: column; */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .footer-top-input input {
+    width: 100%;
+    padding: 12px 15px;   /* 50px hata diya */
+  }
+
+  /* .footer-top-input button {
+    width: 100%;
+  } */
+
 }
